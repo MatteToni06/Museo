@@ -1,0 +1,103 @@
+h1,
+h2 {
+	color: aquamarine;
+}
+
+#menu {
+	display: flex; 
+	justify-content: space-around; 
+	align-items: flex-start; 
+	background-color: darkgray; 
+	color: lightgray; 
+	padding: 15px; 
+	border-radius: 10px; 
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.tabellaRicerca {
+	justify-content: space-between;
+	padding: 15px; 
+}
+
+#menu strong {
+	margin-left: 10px;
+}
+
+#menu input[type='text'] {
+	padding: 10px; 
+	margin-left: 5px; 
+}
+
+#menu button {
+	background-color: #4CAF50; 
+	color: white; 
+	padding: 10px 20px; 
+	transition: background-color 0.5s ease; 
+}
+
+#menu button:hover {
+	background-color: #45a049; 
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+	background-color: #f0f8ff; 
+}
+
+.card-group {
+	gap: 15px; 
+}
+
+.card {
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
+	border-radius: 10px;
+	width: 320px; 
+}
+
+.card-title {
+	font-size: 1.3rem; 
+}
+
+.card-text {
+	color: #777;
+}
+
+.card-button {
+	background-color: #007bff; 
+	font-size: 1.1rem;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.contenutoInfo {
+	top: 15%; 
+	left: 15%;
+	right: 15%; 
+	bottom: 15%;
+	font-size: large;
+}
+
+.btnInfo {
+	font-size: x-large; 
+	background-color: #333; 
+}
+
+.immagineInfo {
+	left: 30%; 
+	right: 30%;
+}
+
+.textInfo {
+	top: 5%; 
+	left: 5%;
+	width: 40%; 
+	padding: 15px; 
+	background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.btnRicerca {
+	margin-left: 70%;
+	font-size: 1.3em;
+}
